@@ -48,8 +48,8 @@ async def feedback(_: Client, message: Message) -> None:
         text="Please don't try to spam this bot , spamming is strictly prohibited and leads to permanent ban.😉\n\nIf there is any kind of reporting, bugs, requests, and suggestions please contact the Owner.🙄\n\nI can not guarantee how long I will be able to maintain this service.😝",
         reply_markup=InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("👨🏻‍🦯 Source", url="https://github.com/alenpaul2001/Web-Screenshot-Bot"),
-                InlineKeyboardButton("❓ Bug Report", url="https://github.com/alenpaul2001/Web-Screenshot-Bot/issues")],
+                InlineKeyboardButton("CONTACT OWNER, url="https://t.me/nabilanavab")],
+                InlineKeyboardButton("Report a Bug", url="https://t.me/nabilanavab")],
             [InlineKeyboardButton(
                 "🌃 Profile Icon Credit",
                 url="https://www.goodfon.com/wallpaper/art-vector-background-illustration-minimalism-angga-tanta-12.html")]
