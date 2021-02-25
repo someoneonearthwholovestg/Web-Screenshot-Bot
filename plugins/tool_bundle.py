@@ -49,7 +49,7 @@ class Printer(object):
         self.PID = _pid
         self.fullpage = True
         self.split = False
-        self.name = f"@Webs-Screenshot.{self.type}"
+        self.name = f"nabilanavab.{self.type}"
 
     def __str__(self):
         res = f'{self.resolution["width"]}+{self.resolution["height"]}'
