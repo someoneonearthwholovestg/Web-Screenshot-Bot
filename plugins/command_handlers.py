@@ -32,7 +32,7 @@ async def start(_: Client, message: Message) -> None:
     LOGGER.debug(f"USED_CMD --> /start command >> @{message.from_user.username}")
     await message.reply_text(
         f"<b>Hi {message.from_user.first_name} 👋\n"
-        "I can render website of a given link to either PDF or PNG/JPEG</b>",
+        "Hi ! I'm a Telegram Bot that creates screenshot [ PNG/JPEG ] or PDF of a given link. Can be matched with various other settings like resolution, partial or fullpage rendering and background rendering.\n\nSend Any Link to get Started 😁</b>",
         quote=True,
         reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("❓ About", callback_data="about_cb")
@@ -45,7 +45,7 @@ async def start(_: Client, message: Message) -> None:
 async def feedback(_: Client, message: Message) -> None:
     LOGGER.debug(f"USED_CMD --> /about command >> @{message.from_user.username}")
     await message.reply_text(
-        text="This project is open ❤️ source",
+        text="Please don't try to spam this bot , spamming is strictly prohibited and leads to permanent ban.😉\n\nIf there is any kind of reporting, bugs, requests, and suggestions please contact the Owner.🙄\n\nI can not guarantee how long I will be able to maintain this service.😝",
         reply_markup=InlineKeyboardMarkup([
             [
                 InlineKeyboardButton("👨🏻‍🦯 Source", url="https://github.com/alenpaul2001/Web-Screenshot-Bot"),
