@@ -31,7 +31,7 @@ HOME = InlineKeyboardMarkup([
 async def start(_: Client, message: Message) -> None:
     LOGGER.debug(f"USED_CMD --> /start command >> @{message.from_user.username}")
     await message.reply_text(
-        f"<b>Hi {message.from_user.first_name} 👋\n"
+        f"<b>Hi {message.from_user.first_name} 🤠\n\n"
         "Hi ! I'm a Telegram Bot that creates screenshot [ PNG/JPEG ] or PDF of a given link. Can be matched with various other settings like resolution, partial or fullpage rendering and background rendering.\n\nSend Any Link to get Started 😁</b>",
         quote=True,
         reply_markup=InlineKeyboardMarkup([[
