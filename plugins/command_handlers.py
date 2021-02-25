@@ -35,7 +35,7 @@ async def start(_: Client, message: Message) -> None:
         "Hi ! I'm a Telegram Bot that creates screenshot [ PNG/JPEG ] or PDF of a given link. Can be matched with various other settings like resolution, partial or fullpage rendering and background rendering.\n\nSend Any Link to get Started 😁</b>",
         quote=True,
         reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("❓ About", callback_data="about_cb")
+                InlineKeyboardButton("❓ close", callback_data="about_cb")
             ]
         ])
     )
